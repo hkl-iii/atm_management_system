@@ -1,4 +1,6 @@
 // C++ program to implement the ATM Management System.
+/* Has a bug: everytime show balance, balance increases by last 
+amount deposited or withdrawn. Will fix it ASAP */
 #include <iostream>
 # include <stdlib.h>
 #include <string.h>
