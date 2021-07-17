@@ -54,4 +54,14 @@ class Bank {
             total = total + amount;
             cout << "\nTotal balance is: " << total;
         }
+
+        // Function to withdraw the amount from ATM
+        void withdraw()
+        {
+            int a, avai_balance;
+            cout << "Enter amount to withdraw\n";
+            cin >> a;
+            avai_balance = total - a;
+            cout << "Available Balance is: " << avai_balance;
+        }
 }
