@@ -65,3 +65,33 @@ class Bank {
             cout << "Available Balance is: " << avai_balance;
         }
     };
+
+    // Driver Code 
+    int main()
+    {
+        // Object of class
+        Bank b;
+
+        int choice;
+
+        // Infinite while loop to choose options everytime 
+        while (1) {
+            cout << "\n~~~~~~~~~~~~~~~~~~~~~~~~~~"
+                 << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+                 << "~~~WELCOME~~~~~~~~~~~~~~~~~~"
+                 << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+                 << "~~~~~~~~~\n\n";
+            cout << "Enter Your Choice\n";
+            cout << "\t1. Enter name, Account\n"
+                 << "number, Account type\n";
+            cout << "\t2. Balance Enquiry\n";
+            cout << "\t3. Deposit Money\n";
+            cout << "\t4. Show Total Balance\n";
+            cout << "\t5. Withdraw Money\n";
+            cout << "\t6. Cancel\n";
+            cin >> choice;
+
+            
+
+        }
+    }
