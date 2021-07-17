@@ -12,7 +12,7 @@ class Bank {
     int accnumber;
     char type[10];
     int amount = 0;
-    int tot = 0;
+    int total = 0;
 
         // Public variables
     public:
@@ -30,7 +30,7 @@ class Bank {
             cout << "Enter Account type\n";
             cin >> type;
             cout << "Enter Balance\n";
-            cin >> tot; 
+            cin >> total; 
         }
 
         // Function to display the required data
@@ -39,6 +39,19 @@ class Bank {
             cout << "Name: " << name << endl;
             cout << "Account No: " << accnumber << endl;
             cout << "Account type: " << type << endl;
-            cout << "Balance: " << tot << endl;
+            cout << "Balance: " << total << endl;
+        }
+
+        // Function to deposit the amount in ATM 
+        void deposit(){
+            cout << "\nEnter amount to be Deposited\n";
+            cin >> amount;
+        }
+
+        // Function to show the balance amount
+        void showbalance()
+        {
+            total = total + amount;
+            cout << "\nTotal balance is: " << total
         }
 }
