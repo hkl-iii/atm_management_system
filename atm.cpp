@@ -33,5 +33,12 @@ class Bank {
             cin >> tot; 
         }
 
-        //
+        // Function to display the required data
+        void showdata()
+        {
+            cout << "Name: " << name << endl;
+            cout << "Account No: " << accnumber << endl;
+            cout << "Account type: " << type << endl;
+            cout << "Balance: " << tot << endl;
+        }
 }
