@@ -64,4 +64,4 @@ class Bank {
             avai_balance = total - a;
             cout << "Available Balance is: " << avai_balance;
         }
-}
+    };
