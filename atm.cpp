@@ -91,7 +91,29 @@ class Bank {
             cout << "\t6. Cancel\n";
             cin >> choice;
 
-            
+            // Choices to select from
+            switch (choice) {
+                case 1: 
+                    b.setvalue();
+                    break;
+                case 2: 
+                    b.showdata();
+                    break;
+                case 3: 
+                    b.deposit();
+                    break;
+                case 4: 
+                    b.showbalance();
+                    break;
+                case 5: 
+                    b.withdraw();
+                    break;
+                case 6: 
+                    exit(1);
+                    break;
+                default:
+                    cout << "\nInvalid Choice\n";
+             }
 
         }
     }
