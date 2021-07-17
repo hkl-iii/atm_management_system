@@ -52,6 +52,6 @@ class Bank {
         void showbalance()
         {
             total = total + amount;
-            cout << "\nTotal balance is: " << total
+            cout << "\nTotal balance is: " << total;
         }
 }
